@@ -24,11 +24,11 @@ This repository contains a Bash script to install and configure OpenLDAP on a De
    ```
 2. Make the script executable:
    ```sh
-   chmod +x install_openldap.sh
+   chmod +x openldap_install.sh
    ```
 3. Run the script:
    ```sh
-   ./install_openldap.sh
+   ./openldap_install.sh
    ```
 4. Follow the prompts to enter your domain, organization, and admin password.
 

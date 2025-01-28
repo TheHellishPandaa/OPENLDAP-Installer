@@ -33,9 +33,15 @@ This repository contains a Bash script to install and configure OpenLDAP on a De
 4. Follow the prompts to enter your domain, organization, and admin password.
 
 ## Usage
+Set-up a domain
+```sh
+sudo dpkg-reconfigure slapd
+```
+
 Once installed, you can manage LDAP using `ldapsearch`, `ldapadd`, and other utilities:
 ```sh
-ldapsearch -x -LLL -H ldap:/// -b "dc=example,dc=com"
+ldapsearch -x -b "dc=example,dc=com"
+
 ```
 Replace `example.com` with your configured domain.
 

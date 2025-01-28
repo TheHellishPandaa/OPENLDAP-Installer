@@ -42,6 +42,4 @@ Este proyecto está licenciado bajo la Licencia MIT.
 ## Contribuciones
 Siéntete libre de enviar issues o pull requests para mejorar este script.
 
-## Autor
-[Tu Nombre](https://github.com/your-username)
 

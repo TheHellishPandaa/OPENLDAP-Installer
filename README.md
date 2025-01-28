@@ -19,8 +19,8 @@ This repository contains a Bash script to install and configure OpenLDAP on a De
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/openldap-installer.git
-   cd openldap-installer
+   git clone https://github.com/TheHelishPandaa/OPENLDAP-Installer.git
+   cd OPENLDAP-Installer
    ```
 2. Make the script executable:
    ```sh

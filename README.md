@@ -46,5 +46,5 @@ This project is licensed under the MIT License.
 Feel free to submit issues or pull requests to improve this script.
 
 ## Author
-[Your Name](https://github.com/your-username)
+[Jaime Galvez Martinez](https://github.com/TheHellishPandaa)
 

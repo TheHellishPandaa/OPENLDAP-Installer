@@ -3,7 +3,7 @@
 # Prompt user for configuration variables
 read -p "Enter the domain name (e.g., example.com): " DOMAIN
 read -p "Enter the organization name: " ORG
-read -s -p "Enter the administrator password: " ADMIN_PASSWORD
+read -p "Enter the administrator password: " ADMIN_PASSWORD
 
 echo "\n"
 LDAP_BASE="dc=$(echo $DOMAIN | sed 's/\./,dc=/g')"
@@ -51,4 +51,11 @@ userPassword: $ENCRYPTED_PASSWORD
 # Apply configuration
 sudo ldapadd -x -D "cn=admin,$LDAP_BASE" -w $ADMIN_PASSWORD -f base.ldif
 
-echo "OpenLDAP has been installed and configured."
+echo "---------------------------------------------------------------------------"
+echo "---------------------------------------------------------"
+
+echo "OpenLDAP has been installed and configured in $DOMAIN server"
+echo "The admin password is $ADMIN_PASSWORD"
+
+echo "---------------------------------------------------------"
+echo "------------------------------------------------------------------------------"
